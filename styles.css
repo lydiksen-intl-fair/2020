@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+}
+
+#title {
+  background-color: #563d7c;
+  color: white;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+
+.subject {
+  background-color: #6c757d;
+  color: white;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+#schedule {
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+}
+
+.main-schedule {
+  padding: 1rem 2rem;
+}
+
+.sub-schedule {
+  padding-left: 4rem;
+}
+
+#countries {
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 1rem;
+  background-color: white;
+  /* padding: 0.5rem; */
+  text-align: center;
+}
+
+.grid-container>div {
+  background-color: white;
+  text-align: center;
+  /* padding: 0.5rem 0; */
+  font-size: 1.5rem;
+}
+
+.present {
+  padding: 0.5rem 0.5rem 2rem;
+  background-color: #ffffff;
+  color: black;
+  font-weight: bold;
+  /* width: 180px; */
+}
+
+.flag_img {
+  /* width: 150px; */
+  width: 90%;
+  display: block;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: thin;
+}
