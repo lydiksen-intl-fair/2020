@@ -34,6 +34,7 @@ body {
   background-color: white;
   color: black;
   padding: 0.5rem;
+
 }
 
 .grid-container {
@@ -47,24 +48,20 @@ body {
 
 .grid-container>div {
   background-color: white;
-  text-align: center;
+  /* text-align: center; */
   /* padding: 0.5rem 0; */
   font-size: 1.5rem;
-}
-
-.present {
-  padding: 0.5rem 0.5rem 2rem;
-  background-color: #ffffff;
-  color: black;
-  font-weight: bold;
-  /* width: 180px; */
+  /* text-align: center; */
 }
 
 .flag_img {
   /* width: 150px; */
-  width: 90%;
+  width: 80%;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   border-style: solid;
   border-color: lightgray;
   border-width: thin;
+  text-align: center;
 }
