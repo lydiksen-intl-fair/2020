@@ -2,6 +2,30 @@ body {
   font-family: sans-serif;
 }
 
+.header-flag{
+  text-align:center;
+}
+
+.flag-icon{
+  /* background-repeat: no-repeat;
+  background-position: 50%; */
+  /* object-fit: cover; */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-style:solid;
+  border-width:thin;
+  border-color:lightgray;
+}
+/* .box{
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: lightgray;
+  color: black;
+  padding: 0.5rem; */
+
+/* } */
 #title {
   background-color: #563d7c;
   color: white;
@@ -12,14 +36,17 @@ body {
 .subject {
   background-color: #6c757d;
   color: white;
-  text-align: left;
+  text-align: center;
   padding-left: 1rem;
 }
 
+.content{
+  margin:0.5rem;
+}
 #schedule {
   background-color: white;
   color: black;
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
 }
 
 .main-schedule {
@@ -33,30 +60,34 @@ body {
 #countries {
   background-color: white;
   color: black;
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
 
 }
 
-.grid-container {
+.flag-table{
+  text-align:center;
+  text-decoration:underline;
+}
+/* .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   grid-gap: 1rem;
   background-color: white;
-  /* padding: 0.5rem; */
+
   text-align: center;
 }
 
 .grid-container>div {
   background-color: white;
   /* text-align: center; */
-  /* padding: 0.5rem 0; */
-  font-size: 1.5rem;
+
+  /* font-size: 1.5rem; */
   /* text-align: center; */
-}
+
 
 .flag_img {
   /* width: 150px; */
-  width: 80%;
+  width:80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
