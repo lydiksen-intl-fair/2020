@@ -6,10 +6,12 @@ body {
   text-align:center;
 }
 
+.warning{
+  color:blue;
+  font-style:italic;
+}
 .flag-icon{
-  /* background-repeat: no-repeat;
-  background-position: 50%; */
-  /* object-fit: cover; */
+
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -17,15 +19,7 @@ body {
   border-width:thin;
   border-color:lightgray;
 }
-/* .box{
-  width:80%;
-  margin-left:auto;
-  margin-right:auto;
-  background-color: lightgray;
-  color: black;
-  padding: 0.5rem; */
 
-/* } */
 #title {
   background-color: #563d7c;
   color: white;
@@ -68,21 +62,7 @@ body {
   text-align:center;
   text-decoration:underline;
 }
-/* .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  grid-gap: 1rem;
-  background-color: white;
 
-  text-align: center;
-}
-
-.grid-container>div {
-  background-color: white;
-  /* text-align: center; */
-
-  /* font-size: 1.5rem; */
-  /* text-align: center; */
 
 
 .flag_img {
