@@ -1,8 +1,9 @@
 body {
   font-family: sans-serif;
+  font-size:1.5rem;
 }
 
-.header-flag{
+.center {
   text-align:center;
 }
 
@@ -37,6 +38,24 @@ body {
 .content{
   margin:0.5rem;
 }
+
+.counter-box{
+  /* position: center; */
+  /* box-sizing: border-box; */
+  margin: auto;
+  width:20%;
+  /* height: auto; */
+  padding: 5px;
+  font-size: 2rem;
+  border-radius:10px;
+  background-color: mediumpurple;
+
+}
+
+.sign-up{
+  background-color: plum;
+  color:indigo;
+}
 #schedule {
   background-color: white;
   color: black;
@@ -62,8 +81,6 @@ body {
   text-align:center;
   text-decoration:underline;
 }
-
-
 
 .flag_img {
   /* width: 150px; */
