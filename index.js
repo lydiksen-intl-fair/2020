@@ -14,8 +14,8 @@ var countDownDate = new Date("Mar 3, 2020 15:37:25").getTime();
   // Time calculations for days, hours, minutes and seconds
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
 
+document.getElementById("demo").innerHTML = days + " days to go!";
 
-document.getElementById("demo").innerHTML = "D-" + days;
   // If the count down is over, write some text
   if (distance < 0) {
     // clearInterval(x);
